@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente principal de la página */
+    margin: 0; /* Elimina el margen por defecto del navegador */
+    padding: 0; /* Elimina el padding por defecto del navegador */
+    background-image: url('imagenes/Background.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir el área del fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+header {
+    background-color: #f8f9fa; /* Color de fondo del encabezado */
+    padding: 20px; /* Espacio interno en el encabezado */
+    text-align: center; /* Centra el texto dentro del encabezado */
+}
+
+header nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding de la lista */
+}
+
+header nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Espacio horizontal entre los elementos */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #007bff; /* Color del texto de los enlaces */
+}
+
+main {
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 80vh; /* Altura mínima del main */
+    padding: 20px; /* Espacio interno en el main */
+}
+
+.container {
+    width: 80%; /* Usa el 80% del ancho de la pantalla */
+    max-width: 1000px; /* El contenedor no será más ancho que 1000px */
+    padding: 20px; /* Agrega espacio interno */
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 20px; /* Bordes redondeados del contenedor */
+}
+
+.perfil {
+    font-size: 16px; /* Tamaño de fuente del perfil */
+    color: #333; /* Color del texto del perfil */
+    background-color: gray; /* Color de fondo del perfil */
+    width: 800px; /* Ancho del perfil */
+    text-align: center; /* Centra el texto del perfil */
+    min-height: 70vh; /* Altura mínima del perfil */
+}
+
+code {
+    background-color: #f4f4f4; /* Fondo gris para resaltar el código */
+    padding: 2px 4px; /* Espaciado alrededor del código */
+    border-radius: 4px; /* Bordes redondeados */
+    font-family: 'Courier New', Courier, monospace; /* Fuente para el código */
+    font-size: 14px; /* Tamaño más pequeño para el código */
+}
+
+.perfil h2 {
+    font-size: 34px; /* Tamaño del título del perfil */
+    font-weight: bold; /* Negrita para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.perfil p {
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #000; /* Color del párrafo */
+}
+
+img {
+    margin: 10px; /* Espacio alrededor de las imágenes */
+    display: inline-block; /* Alineación de las imágenes en línea */
+}
+
+.lenguages {
+    background-color: gray; /* Color de fondo de la sección de lenguajes */
+    width: 800px; /* Ancho de la sección de lenguajes */
+    text-align: center; /* Centra el texto de la sección */
+}
+
+.contact {
+    background-color: gray; /* Color de fondo de la sección de contacto */
+    width: 800px; /* Ancho de la sección de contacto */
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: center; /* Centra el formulario horizontalmente */
+    align-items: center; /* Centra el formulario verticalmente */
+    min-height: 100vh; /* Asegura que el div tenga al menos el alto de la pantalla */
+}
+
+form h2 {
+    text-align: center; /* Centra el texto del encabezado del formulario */
+    font-size: 30px; /* Tamaño del título del formulario */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    color: black; /* Color del título del formulario */
+    margin-bottom: 25px; /* Espacio debajo del título */
+}
+
+form {
+    display: flex; /* Usa flexbox para el formulario */
+    flex-direction: column; /* Organiza los elementos del formulario en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    padding: 50px; /* Espacio interno del formulario */
+    width: 400px; /* Ancho del formulario */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra alrededor del formulario */
+    border-radius: 15px; /* Bordes redondeados del formulario */
+    background-color: #33d0b6; /* Color de fondo del formulario */
+}
+
+label, p {
+    font-size: 17px; /* Tamaño de la fuente de etiquetas y párrafos */
+    color: rgb(48, 47, 47); /* Color del texto de etiquetas y párrafos */
+    margin-bottom: 10px; /* Espacio debajo de etiquetas y párrafos */
+}
+
+input {
+    padding: 17px 11px; /* Espaciado interno de los campos de entrada */
+    border: 1px solid hsl(0, 0%, 100%); /* Bordes blancos para los campos de entrada */
+    border-radius: 25px; /* Bordes redondeados de los campos de entrada */
+    margin-bottom: 10px; /* Espacio debajo de los campos de entrada */
+    background-color: #fff; /* Color de fondo de los campos de entrada */
+    outline: none; /* Elimina el contorno al enfocar */
+    color: #000; /* Color del texto en los campos de entrada */
+    font-size: 17px; /* Tamaño de la fuente en los campos de entrada */
+}
+
+form button {
+    margin-top: 10px; /* Espacio encima del botón */
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border-radius: 25px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+table {
+    width: 50%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+    margin: 20px auto; /* Espacio alrededor de la tabla, centrada */
+    font-family: Arial, sans-serif; /* Fuente de la tabla */
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno de las celdas */
+    text-align: center; /* Centra el texto en las celdas */
+    border: 1px solid #ddd; /* Bordes alrededor de las celdas */
+}
+
+th {
+    background-color: #4CAF50; /* Color de fondo de la cabecera */
+    color: white; /* Color del texto de la cabecera */
+    font-size: 18px; /* Tamaño de la fuente de la cabecera */
+}
+
+td {
+    background-color: #f9f9f9; /* Color de fondo de las celdas */
+    font-size: 16px; /* Tamaño de la fuente de las celdas */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el mouse sobre las filas */
+}
+
+
+footer {
+    text-align: center; /* Centrar texto en el footer */
+    padding: 10px; /* Espacio interno */
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Color de texto blanco */
+}

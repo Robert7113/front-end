@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Define el idioma de la página -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración para el diseño responsivo -->
+    <title>Mi Portafolio</title> <!-- Título de la pestaña del navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1> <!-- Título principal de la página -->
+        <nav>
+            <ul> <!-- Lista de navegación -->
+                <li><a href="#perfil">Perfil</a></li> <!-- Enlace a la sección de perfil -->
+                <li><a href="#lenguajes">Lenguajes</a></li> <!-- Enlace a la sección de lenguajes -->
+                <li><a href="#contacto">Contacto</a></li> <!-- Enlace a la sección de contacto -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container"> <!-- Contenedor principal para el contenido -->
+            <section id="perfil"> <!-- Sección de perfil -->
+                <div class="perfil"> <!-- Div para el contenido del perfil -->
+                    <h2>Mi perfil</h2> <!-- Subtítulo para la sección de perfil -->
+                    <p>Hola, me llamo Roberto Carlos Barragan, tengo 23 años y estoy en el segundo año de la carrera de desarrollo de software. Entré al mundo de la programación en el año 2022. Me había interesado la propuesta de la carrera de desarrollador full stack de Henry.com, y me impactaba la idea de cómo ellos te aseguraban que te prepararían en solo 4 o 5 meses para trabajar en el mundo de la programación.</p>
+
+                    <p>Me inscribí en el curso de nivelación para dar el examen de ingreso. Aprendí los conceptos básicos de JavaScript, como crear variables, cómo usar los operadores lógicos, el uso del <code>if</code> y los bucles <code>for</code>, <code>while</code>, etc.</p>
+
+                    <p>Fueron un mes de nivelación, pero cuando llegó el día del examen, me di cuenta de que no estaba tan listo y preparado para resolver los ejercicios. Así que decidí tomar el camino largo, que fue buscar una carrera que me tomara 3 años para desarrollar bien los conceptos y la lógica. También trato, en mis tiempos libres, de seguir estudiando por mi cuenta. Hice un curso de JavaScript y CSS en freeCodeCamp, y ahora estoy finalizando un curso de bases de datos en SQLite. Probablemente, empezaré un curso de programación orientada a objetos.</p>
+
+                    <p>Además, me gusta la música. Toco la guitarra y el piano, y disfruto de aprender nuevos estilos y técnicas en mis ratos libres.</p>
+
+                    <img src="imagenes/Guitarra.jpg" alt="Foto de guitarra" width="300"> <!-- Imagen de la guitarra -->
+                    <img src="imagenes/Piano.jpg" alt="Foto de piano" width="300"> <!-- Imagen del piano -->
+                </div>
+            </section>
+
+            <section class="lenguages" id="lenguajes"> <!-- Sección de lenguajes -->
+                <div id="lista"> <!-- Div para la lista de lenguajes -->
+                    <h2>Lenguajes de código que manejo</h2> <!-- Subtítulo para la sección de lenguajes -->
+                    <table border="1"> <!-- Tabla para mostrar lenguajes -->
+                        <tr>
+                            <th>Lenguajes que manejo</th> <!-- Encabezado de la tabla -->
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td> <!-- Fila para JavaScript -->
+                        </tr>
+                        <tr>
+                            <td>CSS</td> <!-- Fila para CSS -->
+                        </tr>
+                        <tr>
+                            <td>Base de datos (SQLite)</td> <!-- Fila para SQLite -->
+                        </tr>
+                    </table>
+
+                    <img src="imagenes/Guitarra.jpg" alt="Foto de guitarra" width="300"> <!-- Imagen de la guitarra -->
+                    <img src="imagenes/Piano.jpg" alt="Foto de piano" width="300"> <!-- Imagen del piano -->
+                </div>
+            </section>
+
+            <section class="contact-form" id="contacto"> <!-- Sección de contacto -->
+                <div class="contact"> <!-- Div para el formulario de contacto -->
+                    <form> <!-- Formulario para contacto -->
+                        <h2>Contacto</h2> <!-- Título del formulario -->
+                        <label for="username"> Username </label> <!-- Etiqueta para el campo de nombre de usuario -->
+                        <input type="text" id="username"> <!-- Campo de entrada para nombre de usuario -->
+
+                        <label for="lastname"> LastName </label> <!-- Etiqueta para el campo de apellido -->
+                        <input type="text" id="lastname"> <!-- Campo de entrada para apellido -->
+
+                        <label for="email">Email</label> <!-- Etiqueta para el campo de email -->
+                        <input type="text" id="email"> <!-- Campo de entrada para email -->
+
+                        <label for="phonenumber">PhoneNumber</label> <!-- Etiqueta para el campo de teléfono -->
+                        <input type="text" id="phonenumber"> <!-- Campo de entrada para teléfono -->
+
+                        <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Roberto Carlos Barragan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
